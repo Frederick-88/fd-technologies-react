@@ -2,6 +2,8 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+
 import MainContent from "./components/Main"
 import Experience from "./components/Experience/Main"
 import Skills from "./components/Skills/Main"
@@ -14,7 +16,7 @@ function App() {
    <Router>
      <Navbar/>
      
-     <Switch/>
+     <Switch>
 
      <Route path ="/heroes" component={Heroes}></Route>
      <Route path ="/contact" component={Contact}></Route>
@@ -23,6 +25,10 @@ function App() {
      <Route path ="/experience" component={Experience}></Route>
      <Route exact path ="/" component={MainContent}></Route>
      
+    </Switch>
+
+    <Footer/>
+
      </Router>
   );
 }
