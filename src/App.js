@@ -21,9 +21,19 @@ function App() {
      <Route path ="/heroes" component={Heroes}></Route>
      <Route path ="/contact" component={Contact}></Route>
      <Route path ="/about" component={About}></Route>
-     <Route path ="/skills" component={Skills}></Route>
-     <Route path ="/experience" component={Experience}></Route>
-     <Route exact path ="/" component={MainContent}></Route>
+     <Route path ="/skills">
+       <div>
+         <Skills/>
+       </div>
+     </Route>
+     <Route path ="/experience">
+       <div>
+       <Experience/>
+       </div>
+     </Route>
+     <Route exact path ="/">
+       <MainContent/>
+     </Route>
      
     </Switch>
 

@@ -1,6 +1,11 @@
 .icon-fx{
     color: white;
 }
+
+.icon-fx-b{
+    color: #1a1a1a;
+}
+
 .div-bg-2{
     background-color: #1a1a1a;
 }
@@ -22,4 +27,9 @@
 }
 .expe-img-fx{
     width: 100%;
+}
+
+.underline-hr{
+    border: 2px solid #1a1a1a;
+    width: 25%;
 }
