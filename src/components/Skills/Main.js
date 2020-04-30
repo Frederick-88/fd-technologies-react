@@ -6,6 +6,7 @@ export default function Skills() {
       <h1 className="pt-4">SKILLS</h1>
       <hr className="underline-hr"></hr>
 
+
         <div className="row d-flex justify-content-center pt-4">
 
         <div className="card bg-primary mb-3 col-3 mr-3 text-white">

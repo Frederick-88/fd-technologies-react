@@ -93,7 +93,7 @@ export default function componentName() {
       <div className="container text-center">
         <h2 className="pt-5 pb-3">EXPERIENCE</h2>
         <div className="row d-flex justify-content-center">
-          <div class="card text-white bg-primary mr-3 mb-3 col-3 ">
+          <div class="card text-white bg-primary mr-3 mb-3 col ">
             <img
               src="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png"
               className="expe-img-fx"
@@ -108,7 +108,7 @@ export default function componentName() {
             </div>
           </div>
 
-          <div class="card text-white bg-primary mr-3 mb-3 col-3">
+          <div class="card text-white bg-primary mr-3 mb-3 col">
             <img
               src="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png"
               className="expe-img-fx"
@@ -123,7 +123,7 @@ export default function componentName() {
             </div>
           </div>
 
-          <div class="card text-white bg-primary mb-3 col-3">
+          <div class="card text-white bg-primary mb-3 col">
             <img
               src="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png"
               className="expe-img-fx"
