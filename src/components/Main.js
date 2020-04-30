@@ -32,7 +32,7 @@ export default function componentName() {
           </div>
 
           <div className="col">
-            <img src={Photo} className="img-fluid" alt="..." />
+            <img src={Photo} className="img-fx" alt="..." />
           </div>
         </div>
       </div>
