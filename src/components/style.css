@@ -1,39 +1,61 @@
-.icon-fx{
-    color: white;
+.icon-fx {
+  color: white;
 }
 
-.icon-fx-b{
-    color: #1a1a1a;
+.icon-fx-b {
+  color: #1a1a1a;
 }
 
-.div-bg-2{
-    background-color: #1a1a1a;
+.div-bg-2 {
+  background-color: #1a1a1a;
 }
 .dot {
-    height: 30px;
-    width: 30px;
-    background-color: #1a1a1a;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-.instruction-fx{
-    font-size: 12px;
-    font-weight: bolder;
+  height: 30px;
+  width: 30px;
+  background-color: #1a1a1a;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.btn-fx{
-    font-size: 15px!important;
+.instruction-fx {
+  font-size: 12px;
+  font-weight: bolder;
 }
-.expe-img-fx{
-    width: 100%;
+.btn-fx {
+  font-size: 15px !important;
 }
-
-.underline-hr{
-    border: 2px solid #1a1a1a;
-    width: 25%;
+.expe-img-fx {
+  width: 100%;
 }
 
-.img-fx{
-    width: 32rem;
+.underline-hr {
+  border: 2px solid #1a1a1a;
+  width: 25%;
+}
+
+.img-fx {
+  width: 32rem;
+}
+
+.contact-b-fx {
+  background-color: #b23121;
+  color: white;
+  border: none;
+}
+.contact-b-fx:hover {
+  background-color: white;
+  color: #b23121 !important;
+  border: none;
+}
+
+.contact-b2-fx {
+  background-color: #188a42;
+  color: white;
+  border: none;
+}
+.contact-b2-fx:hover {
+  background-color: white;
+  color: #188a42 !important;
+  border: none;
 }

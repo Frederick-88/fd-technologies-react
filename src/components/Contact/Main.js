@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../assets/photo1.png";
+import "../style.css";
 
 export default function Contact() {
   return (
@@ -48,22 +49,25 @@ export default function Contact() {
         </h1>
         <div className="container">
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6 col-sm-12">
               <img src={image} alt="..." style={{ width: "26rem" }} />
             </div>
 
-            <div className="col-6">
+            <div className="col-md-6 col-sm-12 pt-5">
               <a
                 target="blank"
                 href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=frederick@fdtech.asia&body=Hi! Please kindly input your message here."
               >
-                <button className="bg-primary text-white h5 w-100 pt-2 pb-2">
-                  SEND US A GMAIL{" "}
+                <button className="contact-b-fx text-white h3 w-100 pt-3 pb-3 mb-4 mt-4">
+                  SEND US A GMAIL
+                  <i class="fas fa-arrow-circle-right pl-3"></i>
                 </button>
               </a>
+              <h2 className="text-white text-center">OR</h2>
               <a target="blank" href="https://wa.link/zb52ft">
-                <button className="bg-primary text-white h3 w-100 pt-2 pb-2">
+                <button className="contact-b2-fx text-white h3 w-100 pt-3 pb-3 mt-4">
                   CHAT US VIA WHATSAPP
+                  <i class="fas fa-arrow-circle-right pl-3"></i>
                 </button>
               </a>
             </div>
