@@ -12,7 +12,7 @@ export default function Experience() {
   return (
     <div className="container text-center">
       <h1 className="pt-4">EXPERIENCE</h1>
-      <hr className="underline-hr"></hr>
+      <hr className="underline-hr mb-5"></hr>
 
       <div className="row">
         <div className="col-md-3 col-sm-12">
@@ -76,9 +76,9 @@ export default function Experience() {
       <div className="row">
         <div className="col-md-3 col-sm-12">
           <div class="card text-white bg-primary mb-3">
-            <img src={image5} className="expe-img-fx" alt="..." />
+            <img src={image8} className="expe-img-fx" alt="..." />
             <div class="card-body">
-              <h4 class="card-title">ELSA SPEAK TRAINING PROGRAM</h4>
+              <h4 class="card-title">Progate Development Training Program</h4>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -115,9 +115,9 @@ export default function Experience() {
 
         <div className="col-md-3 col-sm-12">
           <div class="card text-white bg-primary mb-3">
-            <img src={image8} className="expe-img-fx" alt="..." />
+            <img src={image5} className="expe-img-fx" alt="..." />
             <div class="card-body">
-              <h4 class="card-title">Progate Development Training Program</h4>
+              <h4 class="card-title">Elsa speak training program</h4>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.

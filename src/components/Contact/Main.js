@@ -49,11 +49,11 @@ export default function Contact() {
         </h1>
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-sm-12">
+            <div className="col-md-5 col-sm-12">
               <img src={image} alt="..." style={{ width: "26rem" }} />
             </div>
 
-            <div className="col-md-6 col-sm-12 pt-5">
+            <div className="col-md-7 col-sm-12 pt-5">
               <a
                 target="blank"
                 href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=frederick@fdtech.asia&body=Hi! Please kindly input your message here."
