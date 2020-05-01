@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/photo1.png";
+import image from "../../assets/vector.png";
 import "../style.css";
 
 export default function Contact() {

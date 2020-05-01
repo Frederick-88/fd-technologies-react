@@ -1,4 +1,5 @@
 import React from "react";
+import image1 from "";
 
 export default function Experience() {
   return (
