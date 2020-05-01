@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import cv from "../assets/cv.jpg";
+import image1 from "../assets/impactbyte.png";
+import image2 from "../assets/ff.jpg";
+import image3 from "../assets/infinity.jpeg";
 import Photo from "../assets/photo1.png";
 import "./style.css";
 
@@ -17,9 +21,11 @@ export default function componentName() {
 
             <h4 className=" mt-4">Take a look on My CV below --- </h4>
             <div className="mt-4">
-              <button type="button" className="btn btn-outline-primary ">
-                Download My CV Here
-              </button>
+              <a href={cv} download="My CV">
+                <button type="button" className="btn btn-outline-primary ">
+                  Download My CV Here
+                </button>
+              </a>
               <Link to="/contact">
                 <button type="button" className="btn btn-outline-primary ml-3">
                   Let's Work Together
@@ -56,12 +62,12 @@ export default function componentName() {
             <div className="col-md-3 col-sm-12">
               <div className="card bg-secondary mb-3">
                 <div className="card-body">
-                  <i className="fab fa-bootstrap fa-3x pb-3"></i>
-                  <h4 className="card-title">BOOTSTRAP</h4>
+                  <i className="fas fa-server fa-3x pb-3"></i>
+                  <h4 className="card-title">REST API</h4>
 
                   <span className="dot bg-success"></span>
                   <span className="dot bg-success"></span>
-                  <span className="dot bg-success"></span>
+                  <span className="dot bg-primary"></span>
 
                   <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
                 </div>
@@ -99,13 +105,9 @@ export default function componentName() {
         <div className="row d-flex justify-content-center">
           <div className="col-md-3 col-sm-12">
             <div class="card text-white bg-primary mb-3 ">
-              <img
-                src="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png"
-                className="expe-img-fx"
-                alt="..."
-              />
+              <img src={image1} className="expe-img-fx" alt="..." />
               <div class="card-body">
-                <h4 class="card-title">Primary card title</h4>
+                <h4 class="card-title">Impact Byte Fullstack Bootcamp</h4>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -116,13 +118,13 @@ export default function componentName() {
 
           <div className="col-md-3 col-sm-12">
             <div class="card text-white bg-primary mb-3">
-              <img
-                src="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png"
-                className="expe-img-fx"
-                alt="..."
-              />
+              <img src={image3} className="expe-img-fx" alt="..." />
               <div class="card-body">
-                <h4 class="card-title">Primary card title</h4>
+                <h4 class="card-title">
+                  CV Infinity Batam <br />
+                  <span className="h6 card-title">(eXotica Batam)</span>
+                </h4>
+
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
@@ -133,13 +135,11 @@ export default function componentName() {
 
           <div className="col-md-3 col-sm-12">
             <div class="card text-white bg-primary mb-3">
-              <img
-                src="https://i.pinimg.com/originals/dd/64/da/dd64da585bc57cb05e5fd4d8ce873f57.png"
-                className="expe-img-fx"
-                alt="..."
-              />
+              <img src={image2} className="expe-img-fx" alt="..." />
               <div class="card-body">
-                <h4 class="card-title">Primary card title</h4>
+                <h4 class="card-title">
+                  PT Fingerfast Laboratory <br />
+                </h4>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.

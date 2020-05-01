@@ -1,4 +1,5 @@
 import React from "react";
+import cv from "../../assets/cv.jpg";
 import myImg from "../../assets/photo.jpeg";
 
 export default function About() {
@@ -29,9 +30,11 @@ export default function About() {
             i trust in every condition, there are space to grow and chance to
             learn more. So i used to give my best in any condition.
           </h5>
-          <button type="button" className="btn btn-outline-primary mt-2">
-            Download My CV Here
-          </button>
+          <a href={cv} download="My CV">
+            <button type="button" className="btn btn-outline-primary mt-2">
+              Download My CV Here
+            </button>
+          </a>
         </div>
       </div>
 
