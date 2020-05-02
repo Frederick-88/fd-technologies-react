@@ -5,7 +5,7 @@ import "../style.css";
 export default function Contact() {
   return (
     <div>
-      <div className="container text-center">
+      <div className="container text-center contact-media">
         <h1 className="pt-4">CONTACT</h1>
         <hr className="underline-hr"></hr>
 
@@ -44,13 +44,18 @@ export default function Contact() {
       </div>
 
       <div className="bg-primary mb-4">
-        <h1 className=" text-white text-center pt-4">
+        <h2 className=" text-white text-center pt-4 h1">
           Let's create stunning solutions together.
-        </h1>
+        </h2>
         <div className="container">
           <div className="row">
             <div className="col-md-5 col-sm-12">
-              <img src={image} alt="..." style={{ width: "26rem" }} />
+              <img
+                src={image}
+                alt="..."
+                style={{ width: "26rem" }}
+                className="img-contact"
+              />
             </div>
 
             <div className="col-md-7 col-sm-12 pt-5">

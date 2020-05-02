@@ -4,7 +4,7 @@ import myImg from "../../assets/photo.jpeg";
 
 export default function About() {
   return (
-    <div className="container mb-4">
+    <div className="container mb-4 div-about">
       <h1 className="pt-4 text-center">ABOUT</h1>
       <hr className="underline-hr"></hr>
 

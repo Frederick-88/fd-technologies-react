@@ -59,3 +59,64 @@
   color: #188a42 !important;
   border: none;
 }
+
+@media (max-width: 991.98px) {
+  .button-intro {
+    margin: 0 !important;
+  }
+  .contact-media h4 {
+    font-size: 1.35em !important;
+  }
+  .contact-b-fx {
+    font-size: 1.5em !important;
+  }
+  .contact-b2-fx {
+    font-size: 1.5em !important;
+  }
+  div {
+    text-align: center;
+    /* padding: 0.25rem !important; */
+  }
+  .div-intro {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-bottom: 2rem;
+  }
+  .div-about {
+    text-align: left !important;
+  }
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  h2 {
+    font-size: 1.35rem !important;
+  }
+  h3 {
+    font-size: 1.15rem !important;
+  }
+  h4 {
+    font-size: 1rem !important;
+  }
+  h5 {
+    font-size: 0.9rem !important;
+  }
+  h6 {
+    font-size: 0.85rem !important;
+  }
+  .header-footer {
+    font-size: 1.25rem !important;
+  }
+  .img-fx {
+    width: 15rem !important;
+  }
+  .img-contact {
+    width: 15rem !important;
+  }
+  .span-footer {
+    font-size: 0.75em;
+  }
+  .media-footer {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
