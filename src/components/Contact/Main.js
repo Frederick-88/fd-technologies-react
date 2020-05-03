@@ -16,9 +16,7 @@ export default function Contact() {
               <h4 className="font-weight-bold text-white">Locate Us</h4>
             </div>
 
-            <h6 className="text-white pt-4">
-              Batam,Kepulauan Riau ,Indonesia.
-            </h6>
+            <h6 className="text-white">Batam,Kepulauan Riau ,Indonesia.</h6>
           </div>
 
           <div className="col-xl-4 col-md-4 col-sm-12 text-white div-contact-call">

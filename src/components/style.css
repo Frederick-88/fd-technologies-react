@@ -40,6 +40,9 @@
   color: #188a42 !important;
   border: none;
 }
+.contact-media h6 {
+  padding-top: 1.2rem;
+}
 .div-bg-2 {
   background-color: #1a1a1a;
 }
@@ -283,7 +286,8 @@
   /* CONTACT COMPONENT */
 
   .contact-button {
-    padding-top: 4rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
   }
   .contact-button button {
     padding-top: 0.75rem;
@@ -302,11 +306,23 @@
     font-size: 1rem;
   }
   .contact-media h4 {
-    font-size: 1.35em !important;
+    padding-top: 0.25rem;
+    font-size: 1rem !important;
+    padding-left: 1rem;
+  }
+  .contact-media h5 {
+    font-size: 0.8rem !important;
+  }
+  .contact-media h6 {
+    padding-top: 1rem;
+    font-size: 0.7rem !important;
   }
   .div-contact-call {
     width: 100%;
     padding: 0 !important;
+  }
+  .div-contact {
+    text-align: center;
   }
   .div-contact h1 {
     font-size: 1rem;
