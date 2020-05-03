@@ -43,11 +43,12 @@ export default function componentName() {
       </div>
       {/* DIV SATU */}
 
+      {/* DIV KEDUA */}
       <div className="div-bg-2 text-center">
-        <div className="container">
+        <div className="container main-row-b">
           <h2 className="text-white pt-4 pb-2">SKILLS</h2>
           <div className="row d-flex justify-content-center">
-            <div className="col-md-3 col-sm-12">
+            <div className="col-xl-3 col-md-4 col-sm-12">
               <div className="card bg-secondary mb-3">
                 <div className="card-body">
                   <i className="fab fa-react fa-3x pb-3"></i>
@@ -62,7 +63,22 @@ export default function componentName() {
               </div>
             </div>
 
-            <div className="col-md-3 col-sm-12">
+            <div className="col-xl-3 col-md-4 col-sm-12">
+              <div className="card bg-secondary mb-3">
+                <div className="card-body">
+                  <i className="fab fa-chrome fa-3x pb-3"></i>
+                  <h4 className="card-title">RESPONSIVE DESIGN</h4>
+
+                  <span className="dot bg-success"></span>
+                  <span className="dot bg-success"></span>
+                  <span className="dot"></span>
+
+                  <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-md-4 col-sm-12">
               <div className="card bg-secondary mb-3">
                 <div className="card-body">
                   <i className="fas fa-server fa-3x pb-3"></i>
@@ -76,22 +92,8 @@ export default function componentName() {
                 </div>
               </div>
             </div>
-
-            <div className="col-md-3 col-sm-12">
-              <div className="card bg-secondary mb-3">
-                <div className="card-body">
-                  <i className="fab fa-js-square fa-3x pb-3"></i>
-                  <h4 className="card-title">JAVASCRIPT</h4>
-
-                  <span className="dot bg-success"></span>
-                  <span className="dot bg-success"></span>
-                  <span className="dot"></span>
-
-                  <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
-                </div>
-              </div>
-            </div>
           </div>
+
           <Link to="/skills">
             <button
               type="button"
@@ -102,12 +104,14 @@ export default function componentName() {
           </Link>
         </div>
       </div>
+      {/* DIV KEDUA */}
 
-      <div className="container text-center">
+      {/* DIV KETIGA */}
+      <div className="container text-center main-row-expe">
         <h2 className="pt-5 pb-3">EXPERIENCE</h2>
         <div className="row d-flex justify-content-center">
-          <div className="col-md-3 col-sm-12">
-            <div className="card text-white bg-primary mb-3 ">
+          <div className="col-xl-3 col-md-4 col-sm-12 d-flex justify-content-center">
+            <div className="card text-white bg-primary mb-3 expe-card">
               <img src={image1} className="expe-img-fx" alt="..." />
               <div className="card-body">
                 <h4 className="card-title">Impact Byte Fullstack Bootcamp</h4>
@@ -119,8 +123,8 @@ export default function componentName() {
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-12">
-            <div className="card text-white bg-primary mb-3">
+          <div className="col-xl-3 col-md-4 col-sm-12 d-flex justify-content-center">
+            <div className="card text-white bg-primary mb-3 expe-card">
               <img src={image3} className="expe-img-fx" alt="..." />
               <div className="card-body">
                 <h4 className="card-title">
@@ -136,8 +140,8 @@ export default function componentName() {
             </div>
           </div>
 
-          <div className="col-md-3 col-sm-12">
-            <div className="card text-white bg-primary mb-3">
+          <div className="col-xl-3 col-md-4 col-sm-12 d-flex justify-content-center">
+            <div className="card text-white bg-primary mb-3 expe-card">
               <img src={image2} className="expe-img-fx" alt="..." />
               <div className="card-body">
                 <h4 className="card-title">

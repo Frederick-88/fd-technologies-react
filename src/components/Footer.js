@@ -2,11 +2,9 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-primary text-center pb-5 pt-5 media-footer">
-      <h1 className="text-white pt-2 pb-2 head header-footer">
-        FD-TECHNOLOGIES
-      </h1>
-      <div className="pt-3 pb-4">
+    <div className="bg-primary text-center media-footer">
+      <h2 className="text-white header-footer">FD-TECHNOLOGIES</h2>
+      <div className="footer-icon">
         <a
           target="blank"
           href="https://www.linkedin.com/in/chen-frederick-1324301a8/"

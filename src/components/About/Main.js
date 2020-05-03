@@ -5,15 +5,15 @@ import myImg from "../../assets/photo.jpeg";
 export default function About() {
   return (
     <div className="container mb-4 div-about">
-      <h1 className="pt-4 text-center">ABOUT</h1>
+      <h1 className="pt-4 text-center h1-skill-expe">ABOUT</h1>
       <hr className="underline-hr"></hr>
 
-      <div className="row pt-4">
-        <div className="col-md-3">
-          <img src={myImg} className="w-100" alt="..." />
+      <div className="row pt-4 about">
+        <div className="col-xl-3 col-md-4 col-sm-12 text-center">
+          <img src={myImg} alt="..." />
         </div>
 
-        <div className="col-md-9 pl-4">
+        <div className="col-xl-9 col-md-8 col-sm-12 pl-4">
           <h2 className="pt-2">HELLO, I'M FREDERICK.</h2>
           <h5 className="pt-2">
             i believe new challenges and obstacles are made for a better version

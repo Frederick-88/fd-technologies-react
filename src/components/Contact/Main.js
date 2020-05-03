@@ -6,36 +6,38 @@ export default function Contact() {
   return (
     <div>
       <div className="container text-center contact-media">
-        <h1 className="pt-4">CONTACT</h1>
+        <h1 className="pt-4 h1-skill-expe">CONTACT</h1>
         <hr className="underline-hr"></hr>
 
-        <div className="row mt-4">
-          <div className="col bg-primary text-white pt-4 pb-4 mb-3 mr-3">
+        <div className="row mt-4 contact-row">
+          <div className="col-xl-4 col-md-4 col-sm-12 text-white bg-primary pt-4 pb-4 mb-3">
             <div className="d-flex justify-content-center">
               <i className="fas fa-map-marker-alt fa-2x"></i>
-              <h4 className="font-weight-bold text-white pl-3">Locate Us</h4>
+              <h4 className="font-weight-bold text-white">Locate Us</h4>
             </div>
 
-            <h6 className="text-white pt-3">Batam,Kepulauan Riau,Indonesia.</h6>
+            <h6 className="text-white pt-4">
+              Batam,Kepulauan Riau ,Indonesia.
+            </h6>
           </div>
 
-          <div className="col bg-primary text-white pt-4 pb-4 mb-3 mr-3">
-            <div className="d-flex justify-content-center">
-              <i className="fas fa-phone-square-alt fa-2x"></i>
-              <h4 className="font-weight-bold text-white pl-3">
-                Give us a call/WA
-              </h4>
+          <div className="col-xl-4 col-md-4 col-sm-12 text-white div-contact-call">
+            <div className="bg-primary pt-4 pb-4 mb-3 div-contact-call-card">
+              <div className="d-flex justify-content-center">
+                <i className="fas fa-phone-square-alt fa-2x"></i>
+                <h4 className="font-weight-bold text-white">
+                  Give us a call / WA
+                </h4>
+              </div>
+
+              <h5 className="text-white pt-3">0858-3599-8805</h5>
             </div>
-
-            <h5 className="text-white pt-3">0858-3599-8805</h5>
           </div>
 
-          <div className="col bg-primary text-white pt-4 pb-4 mb-3">
+          <div className="col-xl-4 col-md-4 col-sm-12 text-white bg-primary pt-4 pb-4 mb-3">
             <div className="d-flex justify-content-center">
               <i className="far fa-envelope fa-2x"></i>
-              <h4 className="font-weight-bold text-white pl-3">
-                Contact via gmail
-              </h4>
+              <h4 className="font-weight-bold text-white">Contact via gmail</h4>
             </div>
 
             <h6 className="text-white pt-3">frederick@fdtech.asia</h6>
@@ -43,34 +45,29 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="bg-primary mb-4">
-        <h2 className=" text-white text-center pt-4 h1">
+      <div className="bg-primary mb-4 div-contact">
+        <h1 className=" text-white text-center pt-4">
           Let's create stunning solutions together.
-        </h2>
+        </h1>
         <div className="container">
           <div className="row">
-            <div className="col-md-5 col-sm-12">
-              <img
-                src={image}
-                alt="..."
-                style={{ width: "26rem" }}
-                className="img-contact"
-              />
+            <div className="col-xl-5 col-md-6 col-sm-12">
+              <img src={image} alt="..." className="img-contact" />
             </div>
 
-            <div className="col-md-7 col-sm-12 pt-5">
+            <div className="col-xl-7 col-md-6 col-sm-12 contact-button">
               <a
                 target="blank"
                 href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=frederick@fdtech.asia&body=Hi! Please kindly input your message here."
               >
-                <button className="contact-b-fx text-white h3 w-100 pt-3 pb-3 mb-4 mt-4">
+                <button className="contact-b-fx text-white">
                   SEND US A GMAIL
                   <i className="fas fa-arrow-circle-right pl-3"></i>
                 </button>
               </a>
-              <h2 className="text-white text-center">OR</h2>
+              <h3 className="text-white text-center">OR</h3>
               <a target="blank" href="https://wa.link/zb52ft">
-                <button className="contact-b2-fx text-white h3 w-100 pt-3 pb-3 mt-4">
+                <button className="contact-b2-fx text-white">
                   CHAT US VIA WHATSAPP
                   <i className="fas fa-arrow-circle-right pl-3"></i>
                 </button>

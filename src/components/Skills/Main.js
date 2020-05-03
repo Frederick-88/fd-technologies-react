@@ -3,11 +3,11 @@ import React from "react";
 export default function Skills() {
   return (
     <div className="skill container text-center mb-4">
-      <h1 className="pt-4">SKILLS</h1>
+      <h1 className="pt-4 h1-skill-expe">SKILLS</h1>
       <hr className="underline-hr mb-5"></hr>
 
       <div className="row d-flex justify-content-center">
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fab fa-react fa-3x pb-3"></i>
@@ -22,7 +22,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fab fa-bootstrap fa-3x pb-3"></i>
@@ -37,7 +37,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fab fa-js-square fa-3x pb-3"></i>
@@ -54,7 +54,7 @@ export default function Skills() {
       </div>
 
       <div className="row d-flex justify-content-center">
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-code fa-3x pb-3"></i>
@@ -69,7 +69,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-server fa-3x pb-3"></i>
@@ -84,15 +84,15 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
-              <i className="fab fa-html5 fa-3x pb-3"></i>
-              <h4 className="card-title">HTML</h4>
+              <i className="fab fa-chrome fa-3x pb-3"></i>
+              <h4 className="card-title">RESPONSIVE</h4>
 
               <span className="dot bg-success"></span>
               <span className="dot bg-success"></span>
-              <span className="dot bg-success"></span>
+              <span className="dot bg-secondary"></span>
 
               <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
             </div>
@@ -101,7 +101,7 @@ export default function Skills() {
       </div>
 
       <div className="row d-flex justify-content-center">
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fab fa-css3-alt fa-3x pb-3"></i>
@@ -116,7 +116,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-database fa-3x pb-3"></i>
@@ -131,14 +131,14 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-edit fa-3x pb-3"></i>
               <h4 className="card-title">UI/UX</h4>
 
               <span className="dot bg-success"></span>
-              <span className="dot bg-secondary"></span>
+              <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
               <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
@@ -148,7 +148,7 @@ export default function Skills() {
       </div>
 
       <div className="row d-flex justify-content-center">
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-globe-americas fa-3x pb-3"></i>
@@ -163,11 +163,13 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-users fa-3x pb-3"></i>
-              <h4 className="card-title">TeamWork & Management</h4>
+              <h4 className="card-title skill-etc-text">
+                TeamWork & Management
+              </h4>
 
               <span className="dot bg-success"></span>
               <span className="dot bg-success"></span>
@@ -178,7 +180,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-pencil-ruler fa-3x pb-3"></i>

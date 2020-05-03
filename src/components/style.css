@@ -1,7 +1,24 @@
+.about img {
+  width: 16rem !important;
+}
 .btn-fx {
   font-size: 15px !important;
 }
+.contact-row h4 {
+  padding-left: 1.5rem;
+}
+.contact-button {
+  padding-top: 4rem;
+}
+.contact-button button {
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
 .contact-b-fx {
+  font-size: 1.25rem;
   background-color: #b23121;
   color: white;
   border: none;
@@ -13,6 +30,7 @@
 }
 
 .contact-b2-fx {
+  font-size: 1.25rem;
   background-color: #188a42;
   color: white;
   border: none;
@@ -29,8 +47,8 @@
   margin-top: 6rem;
 }
 .dot {
-  height: 30px;
-  width: 30px;
+  height: 1.75rem;
+  width: 1.75rem;
   background-color: #1a1a1a;
   border-radius: 50%;
   display: inline-block;
@@ -40,6 +58,14 @@
 
 .expe-img-fx {
   width: 100%;
+}
+.footer-icon {
+  padding-bottom: 1.5rem;
+  padding-top: 0.75rem;
+}
+.header-footer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .icon-fx {
@@ -54,9 +80,15 @@
   font-size: 12px;
   font-weight: bolder;
 }
-
+.img-contact {
+  width: 26rem !important;
+}
 .img-fx {
   width: 30rem;
+}
+.media-footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .navbar-brand {
   padding-left: 3rem;
@@ -67,6 +99,8 @@
 }
 
 @media (max-width: 991.98px) {
+  /* MAIN COMPONENT */
+
   /* DIV 1 */
   .div-intro {
     margin-top: 4rem;
@@ -89,10 +123,108 @@
     font-size: 0.65rem !important;
     padding: 0.5rem !important;
   }
+  /* DIV 1 */
+
+  /* DIV 2 */
+  .card-body {
+    padding: 0.5 !important;
+  }
+  .dot {
+    height: 1.4rem;
+    width: 1.4rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .instruction-fx {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .main-row-b h2 {
+    font-size: 1.25rem !important;
+  }
+  .main-row-b h4 {
+    font-size: 1rem;
+  }
+  /* DIV 2 */
+
+  /* DIV KETIGA */
+  .main-row-expe h2 {
+    font-size: 1.25rem !important;
+  }
+  .h1-skill-expe {
+    font-size: 1.5rem;
+  }
+  .main-row-expe h4 {
+    font-size: 0.9rem;
+  }
+  .main-row-expe h5 {
+    font-size: 0.9rem;
+  }
+  .main-row-expe p {
+    font-size: 0.7rem;
+  }
+  /* DIV KETIGA */
+
+  /* SKILLS COMPONENT */
+  .skill-etc-text {
+    font-size: 1.2rem;
+  }
+  /* SKILLS COMPONENT */
+
+  /* ABOUT COMPONENT */
+  .about img {
+    width: 14rem !important;
+  }
+  .about h2 {
+    font-size: 1.25rem;
+  }
+  .about h5 {
+    font-size: 0.75rem;
+  }
+  /* ABOUT COMPONENT */
+
+  /* FOOTER */
+  .media-footer {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .header-footer {
+    font-size: 1.25rem !important;
+  }
+
+  /* MAIN COMPONENT */
+
+  /* CONTACT COMPONENT */
+  .contact-row h4 {
+    font-size: 1rem !important;
+    padding-left: 0.5rem;
+  }
+  .contact-button {
+    padding-top: 3rem;
+  }
+  .contact-button button {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .div-contact h1 {
+    font-size: 1.3rem;
+  }
+  .div-contact-call-card {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .img-contact {
+    width: 20rem !important;
+  }
+
+  /* CONTACT COMPONENT */
 }
 
 @media (max-width: 576px) {
-  /* DIV 1 */
+  /* MAIN COMPONENT */
   .btn {
     font-size: 0.6rem !important;
     padding: 0.35rem !important;
@@ -101,31 +233,30 @@
     font-size: 1rem;
   }
   .main-col-2 h4 {
-    font-size: 0.65rem;
+    font-size: 0.72rem;
   }
+
   .div-intro {
     margin-top: 0 !important;
     padding-top: 0 !important;
     margin-bottom: 2rem;
   }
-  .header-footer {
-    font-size: 1.25rem !important;
+  .expe-card {
+    width: 20rem;
+  }
+  .footer-icon {
+    padding-bottom: 0.75rem;
+    padding-top: 0rem;
   }
   .img-fx {
-    width: 13rem;
-    height: 13rem;
+    width: 15rem;
+    height: 15rem;
   }
-  .img-contact {
-    width: 15rem !important;
+  .main-row-expe img {
+    height: 15rem;
   }
-  .contact-media h4 {
-    font-size: 1.35em !important;
-  }
-  .contact-b-fx {
-    font-size: 1.5em !important;
-  }
-  .contact-b2-fx {
-    font-size: 1.5em !important;
+  .main-row-expe h4 {
+    font-size: 0.9rem;
   }
   .navbar-brand {
     padding-left: 1rem;
@@ -134,4 +265,57 @@
   .span-footer {
     font-size: 0.75em;
   }
+  /* MAIN CONTENT */
+
+  /* ABOUT COMPONENT */
+  .about img {
+    width: 20rem;
+  }
+  .about h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .about h5 {
+    font-size: 0.7rem;
+  }
+  /* ABOUT COMPONENT */
+
+  /* CONTACT COMPONENT */
+
+  .contact-button {
+    padding-top: 4rem;
+  }
+  .contact-button button {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .contact-button h3 {
+    font-size: 1.25rem;
+  }
+  .contact-b-fx {
+    font-size: 1rem;
+  }
+  .contact-b2-fx {
+    font-size: 1rem;
+  }
+  .contact-media h4 {
+    font-size: 1.35em !important;
+  }
+  .div-contact-call {
+    width: 100%;
+    padding: 0 !important;
+  }
+  .div-contact h1 {
+    font-size: 1rem;
+  }
+  .div-contact-call h5 {
+    margin-bottom: 0 !important;
+  }
+  .img-contact {
+    width: 15rem !important;
+  }
+  /* CONTACT COMPONENT */
 }
