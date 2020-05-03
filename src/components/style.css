@@ -1,43 +1,6 @@
-.icon-fx {
-  color: rgb(175, 175, 175);
-}
-
-.icon-fx:hover {
-  color: rgb(255, 255, 255);
-}
-
-.div-bg-2 {
-  background-color: #1a1a1a;
-}
-.dot {
-  height: 30px;
-  width: 30px;
-  background-color: #1a1a1a;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.instruction-fx {
-  font-size: 12px;
-  font-weight: bolder;
-}
 .btn-fx {
   font-size: 15px !important;
 }
-.expe-img-fx {
-  width: 100%;
-}
-
-.underline-hr {
-  border: 2px solid #1a1a1a;
-  width: 25%;
-}
-
-.img-fx {
-  width: 23rem;
-}
-
 .contact-b-fx {
   background-color: #b23121;
   color: white;
@@ -59,10 +22,101 @@
   color: #188a42 !important;
   border: none;
 }
+.div-bg-2 {
+  background-color: #1a1a1a;
+}
+.div-intro {
+  margin-top: 6rem;
+}
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #1a1a1a;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.expe-img-fx {
+  width: 100%;
+}
+
+.icon-fx {
+  color: rgb(175, 175, 175);
+}
+
+.icon-fx:hover {
+  color: rgb(255, 255, 255);
+}
+
+.instruction-fx {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.img-fx {
+  width: 30rem;
+}
+.navbar-brand {
+  padding-left: 3rem;
+}
+.underline-hr {
+  border: 2px solid #1a1a1a;
+  width: 25%;
+}
 
 @media (max-width: 991.98px) {
-  .button-intro {
-    margin: 0 !important;
+  /* DIV 1 */
+  .div-intro {
+    margin-top: 4rem;
+  }
+  .main-col-1 {
+    display: flex;
+    justify-content: center;
+  }
+  .img-fx {
+    width: 22rem;
+    height: 22rem;
+  }
+  .main-col-2 h1 {
+    font-size: 1.5rem;
+  }
+  .main-col-2 h4 {
+    font-size: 0.85rem;
+  }
+  .btn {
+    font-size: 0.65rem !important;
+    padding: 0.5rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  /* DIV 1 */
+  .btn {
+    font-size: 0.6rem !important;
+    padding: 0.35rem !important;
+  }
+  .main-col-2 h1 {
+    font-size: 1rem;
+  }
+  .main-col-2 h4 {
+    font-size: 0.65rem;
+  }
+  .div-intro {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-bottom: 2rem;
+  }
+  .header-footer {
+    font-size: 1.25rem !important;
+  }
+  .img-fx {
+    width: 13rem;
+    height: 13rem;
+  }
+  .img-contact {
+    width: 15rem !important;
   }
   .contact-media h4 {
     font-size: 1.35em !important;
@@ -73,48 +127,11 @@
   .contact-b2-fx {
     font-size: 1.5em !important;
   }
-  .div-intro {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    margin-bottom: 2rem;
-  }
-
-  .div-about {
-    text-align: left !important;
-  }
-
-  h1 {
-    font-size: 1.5rem !important;
-  }
-  h2 {
-    font-size: 1.35rem !important;
-  }
-  h3 {
-    font-size: 1.15rem !important;
-  }
-  h4 {
+  .navbar-brand {
+    padding-left: 1rem;
     font-size: 1rem !important;
-  }
-  h5 {
-    font-size: 0.9rem !important;
-  }
-  h6 {
-    font-size: 0.85rem !important;
-  }
-  .header-footer {
-    font-size: 1.25rem !important;
-  }
-  .img-fx {
-    width: 15rem !important;
-  }
-  .img-contact {
-    width: 15rem !important;
   }
   .span-footer {
     font-size: 0.75em;
-  }
-  .media-footer {
-    padding: 0 !important;
-    margin: 0 !important;
   }
 }

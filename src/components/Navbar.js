@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary pl-5">
-        <Link className="navbar-brand" style={{ fontSize: "22px" }} to="/">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <Link className="navbar-brand" style={{ fontSize: "1.5rem" }} to="/">
           FD-TECHNOLOGIES
         </Link>
         <button

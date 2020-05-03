@@ -7,7 +7,7 @@ export default function Skills() {
       <hr className="underline-hr mb-5"></hr>
 
       <div className="row d-flex justify-content-center">
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fab fa-react fa-3x pb-3"></i>
@@ -22,7 +22,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fab fa-bootstrap fa-3x pb-3"></i>
@@ -37,7 +37,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fab fa-js-square fa-3x pb-3"></i>
@@ -54,7 +54,7 @@ export default function Skills() {
       </div>
 
       <div className="row d-flex justify-content-center">
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-code fa-3x pb-3"></i>
@@ -69,7 +69,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-server fa-3x pb-3"></i>
@@ -84,7 +84,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fab fa-html5 fa-3x pb-3"></i>
@@ -100,8 +100,8 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="row d-flex justify-content-center pt-4">
-        <div className="col-md-3 col-sm-12">
+      <div className="row d-flex justify-content-center">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fab fa-css3-alt fa-3x pb-3"></i>
@@ -116,7 +116,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-database fa-3x pb-3"></i>
@@ -131,7 +131,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-edit fa-3x pb-3"></i>
@@ -148,7 +148,7 @@ export default function Skills() {
       </div>
 
       <div className="row d-flex justify-content-center">
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-globe-americas fa-3x pb-3"></i>
@@ -163,7 +163,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-users fa-3x pb-3"></i>
@@ -178,7 +178,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="col-md-3 col-sm-12">
+        <div className="col-md-3 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
               <i className="fas fa-pencil-ruler fa-3x pb-3"></i>

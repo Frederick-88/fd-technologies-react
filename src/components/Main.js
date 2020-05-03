@@ -10,15 +10,16 @@ import "./style.css";
 export default function componentName() {
   return (
     <div>
+      {/* DIV SATU */}
       <div className="container">
         <div className="row">
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12 main-col-1">
             {/* d-none d-sm-block -- buat image ilang klau kecil */}
             <img src={Photo} className="img-fx" alt="..." />
           </div>
 
-          <div className="div-intro col-md-6 col-sm-12">
-            <h1 className="pt-5 ">HI, I'm Frederick.</h1>
+          <div className="div-intro col-md-6 col-sm-12 main-col-2">
+            <h1>HI, I'm Frederick.</h1>
             <h4 className="pt-3">
               I'm an upcoming FullStack Developer. Currently taking Fullstack
               Major on Glints Academy Bootcamp Batam.
@@ -32,10 +33,7 @@ export default function componentName() {
                 </button>
               </a>
               <Link to="/contact">
-                <button
-                  type="button"
-                  className="btn btn-outline-primary button-intro ml-3 "
-                >
+                <button type="button" className="btn btn-outline-primary ml-3">
                   Let's Work Together
                 </button>
               </Link>
@@ -43,6 +41,7 @@ export default function componentName() {
           </div>
         </div>
       </div>
+      {/* DIV SATU */}
 
       <div className="div-bg-2 text-center">
         <div className="container">
