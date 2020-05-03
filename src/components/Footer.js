@@ -20,7 +20,7 @@ export default function Footer() {
           <i className="fa fa-envelope fa-2x icon-fx pl-4" />
         </a>
         <a target="blank" href="https://wa.link/zb52ft">
-          <i class="fab fa-whatsapp-square fa-2x icon-fx pl-4"></i>
+          <i className="fab fa-whatsapp-square fa-2x icon-fx pl-4"></i>
         </a>
       </div>
       <span className="text-white span-footer">

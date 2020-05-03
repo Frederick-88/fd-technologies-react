@@ -17,7 +17,7 @@ export default function componentName() {
             <img src={Photo} className="img-fx" alt="..." />
           </div>
 
-          <div className="div-intro col-md-6 col-sm-12 mt-5">
+          <div className="div-intro col-md-6 col-sm-12">
             <h1 className="pt-5 ">HI, I'm Frederick.</h1>
             <h4 className="pt-3">
               I'm an upcoming FullStack Developer. Currently taking Fullstack
@@ -108,11 +108,11 @@ export default function componentName() {
         <h2 className="pt-5 pb-3">EXPERIENCE</h2>
         <div className="row d-flex justify-content-center">
           <div className="col-md-3 col-sm-12">
-            <div class="card text-white bg-primary mb-3 ">
+            <div className="card text-white bg-primary mb-3 ">
               <img src={image1} className="expe-img-fx" alt="..." />
-              <div class="card-body">
-                <h4 class="card-title">Impact Byte Fullstack Bootcamp</h4>
-                <p class="card-text">
+              <div className="card-body">
+                <h4 className="card-title">Impact Byte Fullstack Bootcamp</h4>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -121,15 +121,15 @@ export default function componentName() {
           </div>
 
           <div className="col-md-3 col-sm-12">
-            <div class="card text-white bg-primary mb-3">
+            <div className="card text-white bg-primary mb-3">
               <img src={image3} className="expe-img-fx" alt="..." />
-              <div class="card-body">
-                <h4 class="card-title">
+              <div className="card-body">
+                <h4 className="card-title">
                   CV Infinity Batam <br />
                   <span className="h6 card-title">(eXotica Batam)</span>
                 </h4>
 
-                <p class="card-text">
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -138,13 +138,13 @@ export default function componentName() {
           </div>
 
           <div className="col-md-3 col-sm-12">
-            <div class="card text-white bg-primary mb-3">
+            <div className="card text-white bg-primary mb-3">
               <img src={image2} className="expe-img-fx" alt="..." />
-              <div class="card-body">
-                <h4 class="card-title">
+              <div className="card-body">
+                <h4 className="card-title">
                   PT Fingerfast Laboratory <br />
                 </h4>
-                <p class="card-text">
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>

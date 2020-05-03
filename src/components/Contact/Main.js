@@ -12,7 +12,7 @@ export default function Contact() {
         <div className="row mt-4">
           <div className="col bg-primary text-white pt-4 pb-4 mb-3 mr-3">
             <div className="d-flex justify-content-center">
-              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <i className="fas fa-map-marker-alt fa-2x"></i>
               <h4 className="font-weight-bold text-white pl-3">Locate Us</h4>
             </div>
 
@@ -21,7 +21,7 @@ export default function Contact() {
 
           <div className="col bg-primary text-white pt-4 pb-4 mb-3 mr-3">
             <div className="d-flex justify-content-center">
-              <i class="fas fa-phone-square-alt fa-2x"></i>
+              <i className="fas fa-phone-square-alt fa-2x"></i>
               <h4 className="font-weight-bold text-white pl-3">
                 Give us a call/WA
               </h4>
@@ -32,7 +32,7 @@ export default function Contact() {
 
           <div className="col bg-primary text-white pt-4 pb-4 mb-3">
             <div className="d-flex justify-content-center">
-              <i class="far fa-envelope fa-2x"></i>
+              <i className="far fa-envelope fa-2x"></i>
               <h4 className="font-weight-bold text-white pl-3">
                 Contact via gmail
               </h4>
@@ -65,14 +65,14 @@ export default function Contact() {
               >
                 <button className="contact-b-fx text-white h3 w-100 pt-3 pb-3 mb-4 mt-4">
                   SEND US A GMAIL
-                  <i class="fas fa-arrow-circle-right pl-3"></i>
+                  <i className="fas fa-arrow-circle-right pl-3"></i>
                 </button>
               </a>
               <h2 className="text-white text-center">OR</h2>
               <a target="blank" href="https://wa.link/zb52ft">
                 <button className="contact-b2-fx text-white h3 w-100 pt-3 pb-3 mt-4">
                   CHAT US VIA WHATSAPP
-                  <i class="fas fa-arrow-circle-right pl-3"></i>
+                  <i className="fas fa-arrow-circle-right pl-3"></i>
                 </button>
               </a>
             </div>

@@ -16,11 +16,11 @@ export default function Experience() {
 
       <div className="row">
         <div className="col-md-3 col-sm-12">
-          <div class="card text-white bg-primary mb-3">
+          <div className="card text-white bg-primary mb-3">
             <img src={image1} className="expe-img-fx" alt="..." />
-            <div class="card-body">
-              <h4 class="card-title">Impact Byte Fullstack Bootcamp</h4>
-              <p class="card-text">
+            <div className="card-body">
+              <h4 className="card-title">Impact Byte Fullstack Bootcamp</h4>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -29,14 +29,14 @@ export default function Experience() {
         </div>
 
         <div className="col-md-3 col-sm-12">
-          <div class="card text-white bg-primary mb-3">
+          <div className="card text-white bg-primary mb-3">
             <img src={image3} className="expe-img-fx" alt="..." />
-            <div class="card-body">
-              <h4 class="card-title">
+            <div className="card-body">
+              <h4 className="card-title">
                 Infinity Batam <br />
                 <span className="h5 card-title">(eXotica Batam)</span>
               </h4>
-              <p class="card-text">
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -45,11 +45,11 @@ export default function Experience() {
         </div>
 
         <div className="col-md-3 col-sm-12">
-          <div class="card text-white bg-primary mb-3">
+          <div className="card text-white bg-primary mb-3">
             <img src={image2} className="expe-img-fx" alt="..." />
-            <div class="card-body">
-              <h4 class="card-title">Fingerfast Laboratory</h4>
-              <p class="card-text">
+            <div className="card-body">
+              <h4 className="card-title">Fingerfast Laboratory</h4>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -58,13 +58,13 @@ export default function Experience() {
         </div>
 
         <div className="col-md-3 col-sm-12">
-          <div class="card text-white bg-primary mb-3">
+          <div className="card text-white bg-primary mb-3">
             <img src={image4} className="expe-img-fx" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
+            <div className="card-body">
+              <h5 className="card-title">
                 Leader of Maitreyawira's English Debate Club
               </h5>
-              <p class="card-text">
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -75,11 +75,13 @@ export default function Experience() {
 
       <div className="row">
         <div className="col-md-3 col-sm-12">
-          <div class="card text-white bg-primary mb-3">
+          <div className="card text-white bg-primary mb-3">
             <img src={image8} className="expe-img-fx" alt="..." />
-            <div class="card-body">
-              <h4 class="card-title">Progate Development Training Program</h4>
-              <p class="card-text">
+            <div className="card-body">
+              <h4 className="card-title">
+                Progate Development Training Program
+              </h4>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -88,11 +90,11 @@ export default function Experience() {
         </div>
 
         <div className="col-md-3 col-sm-12">
-          <div class="card text-white bg-primary mb-3">
+          <div className="card text-white bg-primary mb-3">
             <img src={image6} className="expe-img-fx" alt="..." />
-            <div class="card-body">
-              <h4 class="card-title">Collaboration with Exive Interior</h4>
-              <p class="card-text">
+            <div className="card-body">
+              <h4 className="card-title">Collaboration with Exive Interior</h4>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -101,11 +103,13 @@ export default function Experience() {
         </div>
 
         <div className="col-md-3 col-sm-12">
-          <div class="card text-white bg-primary mb-3">
+          <div className="card text-white bg-primary mb-3">
             <img src={image7} className="expe-img-fx" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Maitreyawira Charity Bazaar Volunteer</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">
+                Maitreyawira Charity Bazaar Volunteer
+              </h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -114,11 +118,11 @@ export default function Experience() {
         </div>
 
         <div className="col-md-3 col-sm-12">
-          <div class="card text-white bg-primary mb-3">
+          <div className="card text-white bg-primary mb-3">
             <img src={image5} className="expe-img-fx" alt="..." />
-            <div class="card-body">
-              <h4 class="card-title">Elsa speak training program</h4>
-              <p class="card-text">
+            <div className="card-body">
+              <h4 className="card-title">Elsa speak training program</h4>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>

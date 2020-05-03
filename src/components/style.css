@@ -35,7 +35,7 @@
 }
 
 .img-fx {
-  width: 32rem;
+  width: 23rem;
 }
 
 .contact-b-fx {
@@ -73,18 +73,16 @@
   .contact-b2-fx {
     font-size: 1.5em !important;
   }
-  div {
-    text-align: center;
-    /* padding: 0.25rem !important; */
-  }
   .div-intro {
     margin-top: 0 !important;
     padding-top: 0 !important;
     margin-bottom: 2rem;
   }
+
   .div-about {
     text-align: left !important;
   }
+
   h1 {
     font-size: 1.5rem !important;
   }
