@@ -1,9 +1,6 @@
 .about img {
   width: 16rem !important;
 }
-.btn-fx {
-  font-size: 15px !important;
-}
 .contact-row h4 {
   padding-left: 1.5rem;
 }
@@ -93,6 +90,12 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.main-row-b button {
+  font-size: 1.15rem;
+}
+.main-row-expe button {
+  font-size: 1.15rem;
+}
 .navbar-brand {
   padding-left: 3rem;
 }
@@ -148,6 +151,9 @@
   .main-row-b h4 {
     font-size: 1rem;
   }
+  .main-row-b button {
+    font-size: 1rem !important;
+  }
   /* DIV 2 */
 
   /* DIV KETIGA */
@@ -156,6 +162,9 @@
   }
   .h1-skill-expe {
     font-size: 1.5rem;
+  }
+  .main-row-expe button {
+    font-size: 0.85rem !important;
   }
   .main-row-expe h4 {
     font-size: 0.9rem;

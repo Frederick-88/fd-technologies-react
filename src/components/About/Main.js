@@ -15,7 +15,7 @@ export default function About() {
 
         <div className="col-xl-9 col-md-8 col-sm-12 pl-4">
           <h2 className="pt-2">HELLO, I'M FREDERICK.</h2>
-          <h5 className="pt-2">
+          <h5 className="pt-2" style={{ fontFamily: "Rubik" }}>
             i believe new challenges and obstacles are made for a better version
             of me.
             <br />
