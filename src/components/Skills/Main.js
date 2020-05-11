@@ -17,7 +17,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PROS</p>
+              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
             </div>
           </div>
         </div>
