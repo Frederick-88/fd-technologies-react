@@ -21,8 +21,8 @@ export default function Experience() {
             <div className="card-body">
               <h4 className="card-title">Impact Byte Fullstack Bootcamp</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Intensive Bootcamp in Fullstack Major, Learnt Frontend & Backend
+                Lessons.
               </p>
             </div>
           </div>
@@ -37,8 +37,9 @@ export default function Experience() {
                 <span className="h5 card-title">(eXotica Batam)</span>
               </h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                As Senior Graphic Designer, creating 3D Interior & Graphic
+                Designs creations, managing Junior team, held meetings with big
+                companies in batam like PT JOTUN, SIIX, PHILIPS, etc.
               </p>
             </div>
           </div>
@@ -50,8 +51,9 @@ export default function Experience() {
             <div className="card-body">
               <h4 className="card-title">Fingerfast Laboratory</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                As Intern Graphic Designer, creating Designs, create videos,
+                collaborate in online-queue-ticket-booking application for
+                hospital.
               </p>
             </div>
           </div>
@@ -65,8 +67,9 @@ export default function Experience() {
                 Leader of Maitreyawira's English Debate Club
               </h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Managing Juniors, improve talents, participated in several
+                competitions with teammates, develop this team to their best
+                versions.
               </p>
             </div>
           </div>
@@ -80,8 +83,8 @@ export default function Experience() {
                 Progate Development Training Program
               </h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Practicing codes, Improve our critical thinking skill &
+                knowledge on real life coding.
               </p>
             </div>
           </div>
@@ -93,8 +96,8 @@ export default function Experience() {
             <div className="card-body">
               <h4 className="card-title">Collaboration with Exive Interior</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Creating 3D Interior & Exterior of "MICHS BATIK" store, an
+                Interior with Batik & elegant theme
               </p>
             </div>
           </div>
@@ -108,8 +111,8 @@ export default function Experience() {
                 Maitreyawira Charity Bazaar Volunteer
               </h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Never forget to help others and feed our positive mind! Helping
+                is good!
               </p>
             </div>
           </div>
@@ -121,8 +124,8 @@ export default function Experience() {
             <div className="card-body">
               <h4 className="card-title">Elsa speak training program</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                English language speaking training, trained to develop the way i
+                communicate to more people!
               </p>
             </div>
           </div>

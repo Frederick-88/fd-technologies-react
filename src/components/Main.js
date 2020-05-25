@@ -116,8 +116,8 @@ export default function componentName() {
               <div className="card-body">
                 <h4 className="card-title">Impact Byte Fullstack Bootcamp</h4>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Intensive Bootcamp in Fullstack Major, Learnt Frontend &
+                  Backend Lessons.
                 </p>
               </div>
             </div>
@@ -133,8 +133,9 @@ export default function componentName() {
                 </h4>
 
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  As Senior Graphic Designer, creating 3D Interior & Graphic
+                  Designs creations, managing Junior team, held meetings with
+                  big companies in batam like PT JOTUN, SIIX, PHILIPS, etc.
                 </p>
               </div>
             </div>
@@ -148,8 +149,9 @@ export default function componentName() {
                   PT Fingerfast Laboratory <br />
                 </h4>
                 <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  As Intern Graphic Designer, creating Designs, create videos,
+                  collaborate in online-queue-ticket-booking application for
+                  hospital.
                 </p>
               </div>
             </div>

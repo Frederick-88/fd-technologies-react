@@ -23,14 +23,15 @@ export default function Navbar() {
         <div className="collapse navbar-collapse ml-3" id="navbarColor01">
           <ul className="navbar-nav ml-auto ">
             {/* float-right */}
-            <li className="nav-item active">
-              <Link className="nav-link" to="/">
-                Home <span className="sr-only">(current)</span>
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link className="nav-link" to="/experience">
                 Experience
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Works <span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item">
