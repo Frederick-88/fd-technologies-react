@@ -15,8 +15,8 @@ export default function Experience() {
       <h1 className="pt-4 h1-skill-expe">EXPERIENCE</h1>
       <hr className="underline-hr mb-5"></hr>
 
-      <div className="row">
-        <div className=" col-xl-3 col-md-4 col-sm-6">
+      <div className="row d-flex justify-content-center">
+        <div className=" col-xl-3 col-md-4 col-sm-10 col-10">
           <div className="card text-white bg-primary mb-3">
             <img src={image1} className="expe-img-fx" alt="..." />
             <div className="card-body card-body-fx">
@@ -30,7 +30,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className=" col-xl-3 col-md-4 col-sm-6">
+        <div className=" col-xl-3 col-md-4 col-sm-10 col-10">
           <div className="card text-white bg-primary mb-3">
             <img src={image3} className="expe-img-fx" alt="..." />
             <div className="card-body card-body-fx">
@@ -47,7 +47,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className=" col-xl-3 col-md-4 col-sm-6">
+        <div className=" col-xl-3 col-md-4 col-sm-10 col-10">
           <div className="card text-white bg-primary mb-3">
             <img src={image2} className="expe-img-fx" alt="..." />
             <div className="card-body card-body-fx">
@@ -61,7 +61,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className=" col-xl-3 col-md-4 col-sm-6">
+        <div className=" col-xl-3 col-md-4 col-sm-10 col-10">
           <div className="card text-white bg-primary mb-3">
             <img src={image4} className="expe-img-fx" alt="..." />
             <div className="card-body card-body-fx">
@@ -77,7 +77,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className=" col-xl-3 col-md-4 col-sm-6">
+        <div className=" col-xl-3 col-md-4 col-sm-10 col-10">
           <div className="card text-white bg-primary mb-3">
             <img
               src={image8}
@@ -97,7 +97,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className=" col-xl-3 col-md-4 col-sm-6">
+        <div className=" col-xl-3 col-md-4 col-sm-10 col-10">
           <div className="card text-white bg-primary mb-3">
             <img src={image6} className="expe-img-fx" alt="..." />
             <div className="card-body card-body-fx">
@@ -110,7 +110,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className=" col-xl-3 col-md-4 col-sm-6">
+        <div className=" col-xl-3 col-md-4 col-sm-10 col-10">
           <div className="card text-white bg-primary mb-3">
             <img src={image7} className="expe-img-fx" alt="..." />
             <div className="card-body card-body-fx">
@@ -125,7 +125,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className=" col-xl-3 col-md-4 col-sm-6">
+        <div className=" col-xl-3 col-md-4 col-sm-10 col-10">
           <div className="card text-white bg-primary mb-3">
             <img src={image5} className="expe-img-fx" alt="..." />
             <div className="card-body card-body-fx">

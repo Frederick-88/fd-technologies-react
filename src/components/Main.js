@@ -49,47 +49,70 @@ export default function componentName() {
         <div className="container main-row-b">
           <h2 className="text-white pt-4 pb-2">SKILLS</h2>
           <div className="row d-flex justify-content-center">
-            <div className="col-xl-3 col-md-4 col-sm-12">
+            <div className="col-xl-3 col-md-4 col-sm-6 col-6">
               <div className="card bg-secondary mb-3">
-                <div className="card-body">
+                <div className="card-body card-skill-fx">
                   <i className="fab fa-react fa-3x pb-3"></i>
                   <h4 className="card-title">React JS</h4>
 
-                  <span className="dot bg-success"></span>
-                  <span className="dot bg-success"></span>
-                  <span className="dot"></span>
+                  <span className="dot dot-fx bg-success"></span>
+                  <span className="dot dot-fx bg-success"></span>
+                  <span className="dot dot-fx"></span>
 
-                  <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+                  <p className="instruction-fx pt-3 hide-fx">
+                    BEGINNER/STANDARD/PRO
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div className="col-xl-3 col-md-4 col-sm-12">
+            <div className="col-xl-3 col-md-4 col-sm-6 col-6">
               <div className="card bg-secondary mb-3">
-                <div className="card-body">
+                <div className="card-body card-skill-fx">
                   <i className="fab fa-chrome fa-3x pb-3"></i>
-                  <h4 className="card-title">RESPONSIVE DESIGN</h4>
+                  <h4 className="card-title title-sm-fx">RESPONSIVE DESIGN</h4>
 
-                  <span className="dot bg-success"></span>
-                  <span className="dot bg-success"></span>
-                  <span className="dot"></span>
+                  <span className="dot dot-fx bg-success"></span>
+                  <span className="dot dot-fx bg-success"></span>
+                  <span className="dot dot-fx"></span>
 
-                  <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+                  <p className="instruction-fx pt-3 hide-fx">
+                    BEGINNER/STANDARD/PRO
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div className="col-xl-3 col-md-4 col-sm-12">
+            <div className="col-xl-3 col-md-4 col-sm-6 col-6">
               <div className="card bg-secondary mb-3">
-                <div className="card-body">
+                <div className="card-body card-skill-fx">
                   <i className="fas fa-server fa-3x pb-3"></i>
                   <h4 className="card-title">REST API</h4>
 
-                  <span className="dot bg-success"></span>
-                  <span className="dot bg-success"></span>
-                  <span className="dot bg-primary"></span>
+                  <span className="dot dot-fx bg-success"></span>
+                  <span className="dot dot-fx bg-success"></span>
+                  <span className="dot dot-fx bg-primary"></span>
 
-                  <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+                  <p className="instruction-fx pt-3 hide-fx">
+                    BEGINNER/STANDARD/PRO
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-md-4 col-sm-6 col-6 show-fx">
+              <div className="card bg-secondary mb-3">
+                <div className="card-body card-skill-fx">
+                  <i className="fas fa-code fa-3x pb-3"></i>
+                  <h4 className="card-title">React Redux</h4>
+
+                  <span className="dot dot-fx bg-success"></span>
+                  <span className="dot dot-fx bg-success"></span>
+                  <span className="dot dot-fx bg-primary"></span>
+
+                  <p className="instruction-fx pt-3 hide-fx">
+                    BEGINNER/STANDARD/PRO
+                  </p>
                 </div>
               </div>
             </div>
@@ -111,7 +134,7 @@ export default function componentName() {
       <div className="container text-center main-row-expe">
         <h2 className="pt-5 pb-3">EXPERIENCE</h2>
         <div className="row d-flex justify-content-center">
-          <div className="col-xl-3 col-md-4 col-sm-12 d-flex justify-content-center">
+          <div className="col-xl-3 col-md-4 col-sm-10 col-10 d-flex justify-content-center">
             <div className="card text-white bg-primary mb-3 expe-card">
               <img src={image1} className="expe-img-fx" alt="..." />
               <div className="card-body">
@@ -125,7 +148,7 @@ export default function componentName() {
             </div>
           </div>
 
-          <div className="col-xl-3 col-md-4 col-sm-12 d-flex justify-content-center">
+          <div className="col-xl-3 col-md-4 col-sm-10 col-10 d-flex justify-content-center">
             <div className="card text-white bg-primary mb-3 expe-card">
               <img src={image3} className="expe-img-fx" alt="..." />
               <div className="card-body">
@@ -143,7 +166,7 @@ export default function componentName() {
             </div>
           </div>
 
-          <div className="col-xl-3 col-md-4 col-sm-12 d-flex justify-content-center">
+          <div className="col-xl-3 col-md-4 col-sm-10 col-10 d-flex justify-content-center">
             <div className="card text-white bg-primary mb-3 expe-card">
               <img src={image2} className="expe-img-fx" alt="..." />
               <div className="card-body">
