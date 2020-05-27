@@ -1,5 +1,5 @@
 .about img {
-  width: 16rem !important;
+  width: 100% !important;
 }
 .card-body-fx {
   height: 15rem;
@@ -188,9 +188,6 @@
   /* SKILLS COMPONENT */
 
   /* ABOUT COMPONENT */
-  .about img {
-    width: 14rem !important;
-  }
   .about h2 {
     font-size: 1.25rem;
   }

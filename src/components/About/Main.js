@@ -1,6 +1,7 @@
 import React from "react";
 import cv from "../../assets/cv.jpg";
-import myImg from "../../assets/photo.jpeg";
+// import myImg from "../../assets/photo.jpeg";
+import myImg from "../../assets/fred2.jpg";
 
 export default function About() {
   return (
@@ -9,11 +10,11 @@ export default function About() {
       <hr className="underline-hr"></hr>
 
       <div className="row pt-4 about">
-        <div className="col-xl-3 col-md-4 col-sm-12 text-center">
+        <div className="col-xl-5 col-md-5 col-sm-12 text-center">
           <img src={myImg} alt="..." />
         </div>
 
-        <div className="col-xl-9 col-md-8 col-sm-12 pl-4">
+        <div className="col-xl-7 col-md-7 col-sm-12 pl-4 align-self-center">
           <h2 className="pt-2">HELLO, I'M FREDERICK.</h2>
           <h5 className="pt-2" style={{ fontFamily: "Rubik" }}>
             i believe new challenges and obstacles are made for a better version

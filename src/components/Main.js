@@ -15,11 +15,11 @@ export default function componentName() {
       <div className="container">
         <div className="row">
           {/* d-none d-sm-block -- buat image ilang klau kecil */}
-          <div className="col-md-6 col-sm-12 main-col-1">
+          <div className="col-md-6 col-sm-12 main-col-1 order-xl-1">
             <img src={Photo} className="img-fx" alt="..." />
           </div>
 
-          <div className="div-intro col-md-6 col-sm-12 main-col-2">
+          <div className="div-intro col-md-6 col-sm-12 main-col-2 order-xl-0">
             <h1>HI, I'm Frederick.</h1>
             <h4 className="pt-3">
               I'm an upcoming FullStack Developer. Currently taking Fullstack
