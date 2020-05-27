@@ -30,8 +30,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">
-                Works <span className="sr-only">(current)</span>
+              <Link className="nav-link" to="/works">
+                Works
               </Link>
             </li>
             <li className="nav-item">

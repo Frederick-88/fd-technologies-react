@@ -7,6 +7,7 @@ import image5 from "../../assets/elsa.png";
 import image6 from "../../assets/exive.jpeg";
 import image7 from "../../assets/volunteer.png";
 import image8 from "../../assets/progate.png";
+import "../style.css";
 
 export default function Experience() {
   return (
@@ -18,11 +19,12 @@ export default function Experience() {
         <div className=" col-xl-3 col-md-4 col-sm-6">
           <div className="card text-white bg-primary mb-3">
             <img src={image1} className="expe-img-fx" alt="..." />
-            <div className="card-body">
+            <div className="card-body card-body-fx">
               <h4 className="card-title">Impact Byte Fullstack Bootcamp</h4>
               <p className="card-text">
                 Intensive Bootcamp in Fullstack Major, Learnt Frontend & Backend
-                Lessons.
+                Lessons. Learnt ReactJS, ReactRedux, ExpressJS, Javascript,
+                Bootstrap, Etc.
               </p>
             </div>
           </div>
@@ -31,7 +33,7 @@ export default function Experience() {
         <div className=" col-xl-3 col-md-4 col-sm-6">
           <div className="card text-white bg-primary mb-3">
             <img src={image3} className="expe-img-fx" alt="..." />
-            <div className="card-body">
+            <div className="card-body card-body-fx">
               <h4 className="card-title">
                 Infinity Batam <br />
                 <span className="h5 card-title">(eXotica Batam)</span>
@@ -48,12 +50,12 @@ export default function Experience() {
         <div className=" col-xl-3 col-md-4 col-sm-6">
           <div className="card text-white bg-primary mb-3">
             <img src={image2} className="expe-img-fx" alt="..." />
-            <div className="card-body">
+            <div className="card-body card-body-fx">
               <h4 className="card-title">Fingerfast Laboratory</h4>
               <p className="card-text">
                 As Intern Graphic Designer, creating Designs, create videos,
                 collaborate in online-queue-ticket-booking application for
-                hospital.
+                hospital, create advertisements to support our team better.
               </p>
             </div>
           </div>
@@ -62,7 +64,7 @@ export default function Experience() {
         <div className=" col-xl-3 col-md-4 col-sm-6">
           <div className="card text-white bg-primary mb-3">
             <img src={image4} className="expe-img-fx" alt="..." />
-            <div className="card-body">
+            <div className="card-body card-body-fx">
               <h5 className="card-title">
                 Leader of Maitreyawira's English Debate Club
               </h5>
@@ -77,8 +79,13 @@ export default function Experience() {
 
         <div className=" col-xl-3 col-md-4 col-sm-6">
           <div className="card text-white bg-primary mb-3">
-            <img src={image8} className="expe-img-fx" alt="..." />
-            <div className="card-body">
+            <img
+              src={image8}
+              className="expe-img-fx"
+              alt="..."
+              style={{ height: "250px" }}
+            />
+            <div className="card-body card-body-fx">
               <h4 className="card-title">
                 Progate Development Training Program
               </h4>
@@ -93,7 +100,7 @@ export default function Experience() {
         <div className=" col-xl-3 col-md-4 col-sm-6">
           <div className="card text-white bg-primary mb-3">
             <img src={image6} className="expe-img-fx" alt="..." />
-            <div className="card-body">
+            <div className="card-body card-body-fx">
               <h4 className="card-title">Collaboration with Exive Interior</h4>
               <p className="card-text">
                 Creating 3D Interior & Exterior of "MICHS BATIK" store, an
@@ -106,7 +113,7 @@ export default function Experience() {
         <div className=" col-xl-3 col-md-4 col-sm-6">
           <div className="card text-white bg-primary mb-3">
             <img src={image7} className="expe-img-fx" alt="..." />
-            <div className="card-body">
+            <div className="card-body card-body-fx">
               <h5 className="card-title">
                 Maitreyawira Charity Bazaar Volunteer
               </h5>
@@ -121,7 +128,7 @@ export default function Experience() {
         <div className=" col-xl-3 col-md-4 col-sm-6">
           <div className="card text-white bg-primary mb-3">
             <img src={image5} className="expe-img-fx" alt="..." />
-            <div className="card-body">
+            <div className="card-body card-body-fx">
               <h4 className="card-title">Elsa speak training program</h4>
               <p className="card-text">
                 English language speaking training, trained to develop the way i

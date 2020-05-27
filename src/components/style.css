@@ -1,6 +1,9 @@
 .about img {
   width: 16rem !important;
 }
+.card-body-fx {
+  height: 15rem;
+}
 .contact-row h4 {
   padding-left: 1.5rem;
 }
@@ -132,8 +135,9 @@
   /* DIV 1 */
 
   /* DIV 2 */
-  .card-body {
-    padding: 0.5 !important;
+  .card-body-fx {
+    padding: 0.5rem !important;
+    height: 100%;
   }
   .dot {
     height: 1.4rem;
@@ -246,6 +250,10 @@
   }
   .main-col-2 h4 {
     font-size: 0.72rem;
+  }
+
+  .card-body-fx {
+    height: 100%;
   }
 
   .div-intro {

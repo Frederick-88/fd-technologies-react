@@ -5,6 +5,7 @@ import image1 from "../assets/impactbyte.png";
 import image2 from "../assets/ff.jpg";
 import image3 from "../assets/infinity.jpeg";
 import Photo from "../assets/photo1.png";
+// import Photo from "../assets/fred.png";
 import "./style.css";
 
 export default function componentName() {
@@ -13,8 +14,8 @@ export default function componentName() {
       {/* DIV SATU */}
       <div className="container">
         <div className="row">
+          {/* d-none d-sm-block -- buat image ilang klau kecil */}
           <div className="col-md-6 col-sm-12 main-col-1">
-            {/* d-none d-sm-block -- buat image ilang klau kecil */}
             <img src={Photo} className="img-fx" alt="..." />
           </div>
 
@@ -117,7 +118,8 @@ export default function componentName() {
                 <h4 className="card-title">Impact Byte Fullstack Bootcamp</h4>
                 <p className="card-text">
                   Intensive Bootcamp in Fullstack Major, Learnt Frontend &
-                  Backend Lessons.
+                  Backend Lessons. Learnt ReactJS, ReactRedux, ExpressJS,
+                  Javascript, Bootstrap, Etc.
                 </p>
               </div>
             </div>
@@ -151,7 +153,7 @@ export default function componentName() {
                 <p className="card-text">
                   As Intern Graphic Designer, creating Designs, create videos,
                   collaborate in online-queue-ticket-booking application for
-                  hospital.
+                  hospital, create advertisements to support our team better.
                 </p>
               </div>
             </div>
