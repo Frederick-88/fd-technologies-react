@@ -40,10 +40,36 @@ export default class CenterMode extends Component {
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 4000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
     };
     return (
       <div>
-        <div className="d-flex d-row justify-content-center my-3">
+        <div className="d-flex d-row justify-content-center mt-3 mb-4">
           <p className="mr-auto ml-4 my-0" onClick={this.previous}>
             <i class="fas fa-arrow-circle-left fa-2x" />
           </p>
@@ -115,9 +141,8 @@ export default class CenterMode extends Component {
                 <div className="card-body text-center">
                   <h5 className="card-title">Indonesia National Heroes</h5>
                   <p className="card-text">
-                    This project is originated from a task that given at Glints
-                    Academy Bootcamp. I responsible to fetch data of indonesia
-                    national heroes from
+                    1 of task in the Bootcamp, I responsible to fetch data of
+                    indonesia national heroes from
                     <br />
                     <a
                       href="https://heroes-indonesia.herokuapp.com/heroes/get"
@@ -166,9 +191,42 @@ export default class CenterMode extends Component {
                 <div className="card-body text-center">
                   <h5 className="card-title">Weather App</h5>
                   <p className="card-text">
-                    Never forget to help others and feed our positive mind!
-                    Helping is good!
+                    1 of task in the Bootcamp, I responsible to fetch data of
+                    weather from
+                    <br />
+                    <a
+                      href="https://heroes-indonesia.herokuapp.com/heroes/get"
+                      target="blank"
+                      className="h6"
+                      style={{ color: "#007bff" }}
+                    >
+                      https://api.openweatherapp.org/
+                    </a>
+                    <br />
+                    and show it to users like a frontend developer.
                   </p>
+                  <p className="my-0 font-weight-bold">
+                    Tech: ReactJS,Bootstrap,RestAPI
+                  </p>
+                  <div className="d-flex d-row pt-3 justify-content-center  ">
+                    <a
+                      href="/static/media/works4.d20b007c.png"
+                      target="blank"
+                      className="project-link"
+                    >
+                      <i className="far fa-image fa-lg pr-2"></i>
+                      Open Image
+                    </a>
+
+                    <a
+                      href="/static/media/works4.d20b007c.png"
+                      target="blank"
+                      className="project-link"
+                    >
+                      <i className="far fa-image fa-lg pr-2"></i>
+                      Check the website!
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

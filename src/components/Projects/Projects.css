@@ -1,8 +1,9 @@
 .project-link {
   padding: 0.7em;
-  border: 2px solid black;
+  border: 1.5px solid black;
   text-decoration: none;
   margin: 0px 3px;
+  transition: ease-in-out 0.3s;
 }
 .project-link:hover {
   background-color: black;

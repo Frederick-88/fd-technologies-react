@@ -13,11 +13,16 @@ export default function Skills() {
               <i className="fab fa-react fa-3x pb-3"></i>
               <h4 className="card-title">React JS</h4>
 
-              <span className="dot bg-success"></span>
-              <span className="dot bg-success"></span>
-              <span className="dot bg-secondary"></span>
-
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <div class="progress mt-4">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style={{ width: "25%" }}
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
             </div>
           </div>
         </div>
