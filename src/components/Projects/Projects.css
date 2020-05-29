@@ -1,0 +1,29 @@
+.project-link {
+  padding: 0.7em;
+  border: 2px solid black;
+  text-decoration: none;
+  margin: 0px 3px;
+}
+.project-link:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.slick-slide {
+  opacity: 0.8;
+}
+.slick-current {
+  opacity: 1;
+}
+.slick-current .slider-img {
+  width: 100%;
+  z-index: 1;
+}
+.slick-current .slider-img:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 1.5s;
+}
+.slider-img {
+  width: 70%;
+}
