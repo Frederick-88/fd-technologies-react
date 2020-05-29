@@ -1,3 +1,6 @@
+.hide-inPhone {
+  display: block;
+}
 .project-link {
   padding: 0.7em;
   border: 1.5px solid black;
@@ -6,11 +9,12 @@
   transition: ease-in-out 0.3s;
 }
 .project-link:hover {
-  background-color: black;
-  color: white;
   text-decoration: none;
+  cursor: default;
 }
-
+.show-inPhone {
+  display: none;
+}
 .slick-slide {
   opacity: 0.8;
 }
@@ -25,6 +29,30 @@
   transform: scale(1.2);
   transition: ease-in-out 1.5s;
 }
+.slick-current .project-link:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
 .slider-img {
   width: 70%;
+}
+
+@media (max-width: 576px) {
+  .hide-inPhone {
+    display: none;
+  }
+  .show-inPhone {
+    display: block;
+  }
+  .project-link {
+    border: 1px solid black;
+  }
+  .project-txt p {
+    font-size: 0.85em;
+  }
+  .project-header {
+    font-size: 1.5em;
+  }
 }

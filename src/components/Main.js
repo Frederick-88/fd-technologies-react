@@ -60,7 +60,7 @@ export default function componentName() {
                   <span className="dot dot-fx"></span>
 
                   <p className="instruction-fx pt-3 hide-fx">
-                    BEGINNER/STANDARD/PRO
+                    BEGINNER/INTERMEDIATE/PRO
                   </p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function componentName() {
                   <span className="dot dot-fx"></span>
 
                   <p className="instruction-fx pt-3 hide-fx">
-                    BEGINNER/STANDARD/PRO
+                    BEGINNER/INTERMEDIATE/PRO
                   </p>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function componentName() {
                   <span className="dot dot-fx bg-primary"></span>
 
                   <p className="instruction-fx pt-3 hide-fx">
-                    BEGINNER/STANDARD/PRO
+                    BEGINNER/INTERMEDIATE/PRO
                   </p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default function componentName() {
                   <span className="dot dot-fx bg-primary"></span>
 
                   <p className="instruction-fx pt-3 hide-fx">
-                    BEGINNER/STANDARD/PRO
+                    BEGINNER/INTERMEDIATE/PRO
                   </p>
                 </div>
               </div>

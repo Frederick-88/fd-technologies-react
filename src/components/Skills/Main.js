@@ -13,7 +13,13 @@ export default function Skills() {
               <i className="fab fa-react fa-3x pb-3"></i>
               <h4 className="card-title">React JS</h4>
 
-              <div class="progress mt-4">
+              <span className="dot bg-success"></span>
+              <span className="dot bg-success"></span>
+              <span className="dot bg-secondary"></span>
+
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
+
+              {/* <div class="progress mt-4">
                 <div
                   class="progress-bar bg-success"
                   role="progressbar"
@@ -22,7 +28,7 @@ export default function Skills() {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -37,7 +43,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -52,7 +58,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -69,7 +75,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -84,7 +90,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -99,7 +105,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -116,7 +122,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -131,7 +137,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -146,7 +152,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -163,7 +169,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -180,7 +186,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-secondary"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>
@@ -195,7 +201,7 @@ export default function Skills() {
               <span className="dot bg-success"></span>
               <span className="dot bg-success"></span>
 
-              <p className="instruction-fx pt-3">BEGINNER/STANDARD/PRO</p>
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
           </div>
         </div>

@@ -39,7 +39,7 @@ export default class CenterMode extends Component {
       speed: 500,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 6000,
       responsive: [
         {
           breakpoint: 1024,
@@ -73,12 +73,12 @@ export default class CenterMode extends Component {
           <p className="mr-auto ml-4 my-0" onClick={this.previous}>
             <i class="fas fa-arrow-circle-left fa-2x" />
           </p>
-          <h2 className="my-0">PROJECTS</h2>
+          <h2 className="my-0 project-header">PROJECTS</h2>
           <p className="ml-auto mr-4 my-0" onClick={this.next}>
             <i class="fas fa-arrow-circle-right fa-2x" />
           </p>
         </div>
-        <div className="mt-3 mb-5">
+        <div className="mt-3 mb-5 project-txt">
           <Slider ref={(slider) => (this.slider = slider)} {...settings}>
             <div>
               <div className="card text-primary">
@@ -90,8 +90,42 @@ export default class CenterMode extends Component {
                 <div className="card-body text-center">
                   <h5 className="card-title">Circle Messenger</h5>
                   <p className="card-text">
-                    Never forget to help others and feed our positive mind!
-                    Helping is good!
+                    <p className="card-text">
+                      A Real-Time messenger app which is the final project in
+                      glints academy bootcamp, users could send image,
+                      documents, and even show expressions with emoji here!
+                      <br />
+                    </p>
+                    <p className="my-0 font-weight-bold">
+                      Tech: ReactJS,ReactRedux,Bootstrap,RestAPI,GoogleCloud
+                    </p>
+                    <div className="d-flex d-row pt-3 justify-content-center  ">
+                      <a
+                        href="/static/media/works3.deeba28f.png"
+                        target="blank"
+                        className="project-link"
+                      >
+                        <i className="far fa-image fa-lg pr-2"></i>
+                        Open Image
+                      </a>
+
+                      <a
+                        href="https://www.circlemessenger.com/"
+                        target="blank"
+                        className="project-link hide-inPhone"
+                      >
+                        <i className="fab fa-safari fa-lg pr-2"></i>
+                        Check the website!
+                      </a>
+                    </div>
+                    <a
+                      href="/static/media/works4.d20b007c.png"
+                      target="blank"
+                      className="project-link show-inPhone mt-2"
+                    >
+                      <i className="fab fa-safari fa-lg pr-2"></i>
+                      Check the website!
+                    </a>
                   </p>
                 </div>
               </div>
@@ -171,12 +205,20 @@ export default class CenterMode extends Component {
                     <a
                       href="/static/media/works4.d20b007c.png"
                       target="blank"
-                      className="project-link"
+                      className="project-link hide-inPhone"
                     >
-                      <i className="far fa-image fa-lg pr-2"></i>
+                      <i className="fab fa-safari fa-lg pr-2"></i>
                       Check the website!
                     </a>
                   </div>
+                  <a
+                    href="/static/media/works4.d20b007c.png"
+                    target="blank"
+                    className="project-link show-inPhone mt-2"
+                  >
+                    <i className="fab fa-safari fa-lg pr-2"></i>
+                    Check the website!
+                  </a>
                 </div>
               </div>
             </div>
@@ -210,7 +252,7 @@ export default class CenterMode extends Component {
                   </p>
                   <div className="d-flex d-row pt-3 justify-content-center  ">
                     <a
-                      href="/static/media/works4.d20b007c.png"
+                      href="/static/media/works1.d88a9733.png"
                       target="blank"
                       className="project-link"
                     >
@@ -221,12 +263,20 @@ export default class CenterMode extends Component {
                     <a
                       href="/static/media/works4.d20b007c.png"
                       target="blank"
-                      className="project-link"
+                      className="project-link hide-inPhone"
                     >
-                      <i className="far fa-image fa-lg pr-2"></i>
+                      <i className="fab fa-safari fa-lg pr-2"></i>
                       Check the website!
                     </a>
                   </div>
+                  <a
+                    href="/static/media/works4.d20b007c.png"
+                    target="blank"
+                    className="project-link show-inPhone mt-2"
+                  >
+                    <i className="fab fa-safari fa-lg pr-2"></i>
+                    Check the website!
+                  </a>
                 </div>
               </div>
             </div>
