@@ -269,23 +269,23 @@ export default class CenterMode extends Component {
                       Open Image
                     </a>
 
-                    <a
+                    {/* <a
                       href="/static/media/works4.d20b007c.png"
                       target="blank"
                       className="project-link hide-inPhone"
                     >
-                      <i className="fab fa-safari fa-lg pr-2"></i>
+                      <i className="fab fa-safari fa-lg pr-2" disabled></i>
                       Check the website!
-                    </a>
+                    </a> */}
                   </div>
-                  <a
+                  {/* <a
                     href="/static/media/works4.d20b007c.png"
                     target="blank"
                     className="project-link show-inPhone mt-2"
                   >
                     <i className="fab fa-safari fa-lg pr-2"></i>
                     Check the website!
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -321,29 +321,29 @@ export default class CenterMode extends Component {
                     <a
                       href="/static/media/works1.d88a9733.png"
                       target="blank"
-                      className="project-link"
+                      className="project-link d-block"
                     >
                       <i className="far fa-image fa-lg pr-2"></i>
                       Open Image
                     </a>
 
-                    <a
+                    {/* <a
                       href="/static/media/works4.d20b007c.png"
                       target="blank"
                       className="project-link hide-inPhone"
                     >
                       <i className="fab fa-safari fa-lg pr-2"></i>
                       Check the website!
-                    </a>
+                    </a> */}
                   </div>
-                  <a
+                  {/* <a
                     href="/static/media/works4.d20b007c.png"
                     target="blank"
                     className="project-link show-inPhone mt-2"
                   >
                     <i className="fab fa-safari fa-lg pr-2"></i>
                     Check the website!
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
