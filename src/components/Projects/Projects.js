@@ -90,14 +90,13 @@ export default class CenterMode extends Component {
                 <div className="card-body text-center">
                   <h5 className="card-title">Circle Messenger</h5>
                   <p className="card-text">
-                    <p className="card-text">
-                      A Real-Time messenger app which is the final project in
-                      glints academy bootcamp, users could send image,
-                      documents, and even show expressions with emoji here!
-                      <br />
-                    </p>
-                    <p className="my-0 font-weight-bold">
-                      Tech: ReactJS,ReactRedux,Bootstrap,RestAPI,GoogleCloud
+                    A Real-Time messenger app which is the final project in
+                    glints academy bootcamp, users could send image, documents,
+                    and even show expressions with emoji here!
+                    <br />
+                    <p className="mb-0 font-weight-bold mt-3">
+                      Tech: ReactJS ,ReactRedux ,Bootstrap ,RestAPI ,GoogleCloud
+                      ,CSS ,Javascript ,Database ,ExpressJS, MongoDB ,UI/UX
                     </p>
                     <div className="d-flex d-row pt-3 justify-content-center  ">
                       <a
@@ -119,7 +118,7 @@ export default class CenterMode extends Component {
                       </a>
                     </div>
                     <a
-                      href="/static/media/works4.d20b007c.png"
+                      href="/https://www.circlemessenger.com/"
                       target="blank"
                       className="project-link show-inPhone mt-2"
                     >
@@ -141,8 +140,41 @@ export default class CenterMode extends Component {
                 <div className="card-body text-center">
                   <h5 className="card-title">FD-Library</h5>
                   <p className="card-text">
-                    Never forget to help others and feed our positive mind!
-                    Helping is good!
+                    An app which i build as a Fullstack(frontend & backend), in
+                    this app you can add,edit,delete book,etc which i manage
+                    with ExpressJS + MongoDB (Backend) & <br />
+                    ReactJS + Redux (Frontend).
+                    <p className="mb-0 font-weight-bold mt-3">
+                      Tech: ReactJS ,ReactRedux ,Bootstrap ,RestAPI ,GoogleCloud
+                      ,CSS ,Javascript ,Database ,UI/UX
+                    </p>
+                    <div className="d-flex d-row pt-3 justify-content-center  ">
+                      <a
+                        href="/static/media/works2.36b4f8ac.png"
+                        target="blank"
+                        className="project-link"
+                      >
+                        <i className="far fa-image fa-lg pr-2"></i>
+                        Open Image
+                      </a>
+
+                      <a
+                        href="https://fd-library.netlify.app/"
+                        target="blank"
+                        className="project-link hide-inPhone"
+                      >
+                        <i className="fab fa-safari fa-lg pr-2"></i>
+                        Check the website!
+                      </a>
+                    </div>
+                    <a
+                      href="https://fd-library.netlify.app/"
+                      target="blank"
+                      className="project-link show-inPhone mt-2"
+                    >
+                      <i className="fab fa-safari fa-lg pr-2"></i>
+                      Check the website!
+                    </a>
                   </p>
                 </div>
               </div>
@@ -157,9 +189,44 @@ export default class CenterMode extends Component {
                 />
                 <div className="card-body text-center">
                   <h5 className="card-title">FDTECH.ASIA</h5>
+
                   <p className="card-text">
-                    Never forget to help others and feed our positive mind!
-                    Helping is good!
+                    This is my own personal website, at here i try to share with
+                    you who am i and what are the things that i capable, you can
+                    also access my personal web in phone & any other device too!
+                    lets get to know each other.
+                    <br />
+                    <p className="mb-0 mt-3 font-weight-bold">
+                      Tech: ReactJS ,Bootstrap ,Bootswatch ,CSS ,CSS Animation,
+                      ReactSlick
+                    </p>
+                    <div className="d-flex d-row pt-3 justify-content-center  ">
+                      <a
+                        href="/static/media/works.7b68f80b.png"
+                        target="blank"
+                        className="project-link"
+                      >
+                        <i className="far fa-image fa-lg pr-2"></i>
+                        Open Image
+                      </a>
+
+                      <a
+                        href="https://fdtech.asia/"
+                        target="blank"
+                        className="project-link hide-inPhone"
+                      >
+                        <i className="fab fa-safari fa-lg pr-2"></i>
+                        Check the website!
+                      </a>
+                    </div>
+                    <a
+                      href="https://fdtech.asia/"
+                      target="blank"
+                      className="project-link show-inPhone mt-2"
+                    >
+                      <i className="fab fa-safari fa-lg pr-2"></i>
+                      Check the website!
+                    </a>
                   </p>
                 </div>
               </div>
@@ -190,7 +257,7 @@ export default class CenterMode extends Component {
                     and show it to users like a frontend developer.
                   </p>
                   <p className="my-0 font-weight-bold">
-                    Tech: ReactJS,Bootstrap,RestAPI
+                    Tech: ReactJS ,Bootstrap ,RestAPI ,Javascript
                   </p>
                   <div className="d-flex d-row pt-3 justify-content-center  ">
                     <a
@@ -248,7 +315,7 @@ export default class CenterMode extends Component {
                     and show it to users like a frontend developer.
                   </p>
                   <p className="my-0 font-weight-bold">
-                    Tech: ReactJS,Bootstrap,RestAPI
+                    Tech: ReactJS ,Bootstrap ,RestAPI ,Javascript
                   </p>
                   <div className="d-flex d-row pt-3 justify-content-center  ">
                     <a

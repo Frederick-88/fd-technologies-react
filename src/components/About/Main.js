@@ -1,7 +1,7 @@
 import React from "react";
 import cv from "../../assets/cv.jpg";
 // import myImg from "../../assets/photo.jpeg";
-import myImg from "../../assets/fred2.jpg";
+import myImg from "../../assets/fred2.webp";
 
 export default function About() {
   return (
