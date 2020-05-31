@@ -324,7 +324,7 @@ export default class CenterMode extends Component {
                       className="project-link d-block"
                     >
                       <i className="far fa-image fa-lg pr-2"></i>
-                      Open Image
+                      Open Images
                     </a>
 
                     {/* <a
