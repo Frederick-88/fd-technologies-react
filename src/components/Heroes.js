@@ -23,7 +23,7 @@ export default function Heroes() {
             <th className="h4 font-weight-underline">
               <u className="mt-4">Number</u>
             </th>
-            <th className="h4">Name</th>
+            <th className="h4">Nameaa</th>
             <th className="h4 ">Born</th>
             <th className="h4 ">Dead</th>
             <th className="h4 ">Description</th>
