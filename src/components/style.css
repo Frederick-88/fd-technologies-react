@@ -18,6 +18,7 @@
   width: 100%;
 }
 .contact-b-fx {
+  border-radius: 0.75rem;
   font-size: 1.25rem;
   background-color: #b23121;
   color: white;
@@ -30,6 +31,7 @@
 }
 
 .contact-b2-fx {
+  border-radius: 0.75rem;
   font-size: 1.25rem;
   background-color: #188a42;
   color: white;
