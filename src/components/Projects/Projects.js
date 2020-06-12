@@ -5,6 +5,7 @@ import image1 from "../../assets/works1.png";
 import image2 from "../../assets/works2.png";
 import image3 from "../../assets/works3.png";
 import image4 from "../../assets/works4.png";
+import image5 from "../../assets/works5.png";
 import "./Projects.css";
 
 export default class CenterMode extends Component {
@@ -235,6 +236,64 @@ export default class CenterMode extends Component {
             <div>
               <div className="card text-primary">
                 <img
+                  src={image1}
+                  className="slider-img align-self-center"
+                  alt="..."
+                />
+                <div className="card-body text-center">
+                  <h5 className="card-title">Weather App</h5>
+                  <p className="card-text">
+                    1 of task in the Bootcamp, I responsible to fetch data of
+                    weather from
+                    <br />
+                    <a
+                      href="/"
+                      target="blank"
+                      className="h6"
+                      style={{ color: "#007bff" }}
+                    >
+                      https://api.openweatherapp.org/
+                    </a>
+                    <br />
+                    and show it to users like a frontend developer.
+                  </p>
+                  <p className="my-0 font-weight-bold">
+                    Tech: ReactJS ,Bootstrap ,RestAPI ,Javascript
+                  </p>
+                  <div className="d-flex d-row pt-3 justify-content-center  ">
+                    <a
+                      href="/static/media/works1.d88a9733.png"
+                      target="blank"
+                      className="project-link d-block"
+                    >
+                      <i className="far fa-image fa-lg pr-2"></i>
+                      Open Image
+                    </a>
+
+                    {/* <a
+                      href="/static/media/works4.d20b007c.png"
+                      target="blank"
+                      className="project-link hide-inPhone"
+                    >
+                      <i className="fab fa-safari fa-lg pr-2"></i>
+                      Check the website!
+                    </a> */}
+                  </div>
+                  {/* <a
+                    href="/static/media/works4.d20b007c.png"
+                    target="blank"
+                    className="project-link show-inPhone mt-2"
+                  >
+                    <i className="fab fa-safari fa-lg pr-2"></i>
+                    Check the website!
+                  </a> */}
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="card text-primary">
+                <img
                   src={image4}
                   className="slider-img align-self-center"
                   alt="..."
@@ -293,57 +352,59 @@ export default class CenterMode extends Component {
             <div>
               <div className="card text-primary">
                 <img
-                  src={image1}
+                  src={image5}
                   className="slider-img align-self-center"
                   alt="..."
                 />
                 <div className="card-body text-center">
-                  <h5 className="card-title">Weather App</h5>
+                  <h5 className="card-title">WEATHERPEDIA</h5>
+
                   <p className="card-text">
-                    1 of task in the Bootcamp, I responsible to fetch data of
-                    weather from
-                    <br />
+                    This is the weather website that i made based on the API
+                    that i fetched from
                     <a
-                      href="https://heroes-indonesia.herokuapp.com/heroes/get"
+                      href="https://openweathermap.org/"
                       target="blank"
                       className="h6"
                       style={{ color: "#007bff" }}
                     >
-                      https://api.openweatherapp.org/
+                      https://openweathermap.org/
                     </a>
+                    , this web provides weather informations in
+                    Singapore(Default) combined with GIF for better user
+                    experience. User also can search other city at here.
                     <br />
-                    and show it to users like a frontend developer.
-                  </p>
-                  <p className="my-0 font-weight-bold">
-                    Tech: ReactJS ,Bootstrap ,RestAPI ,Javascript
-                  </p>
-                  <div className="d-flex d-row pt-3 justify-content-center  ">
-                    <a
-                      href="/static/media/works1.d88a9733.png"
-                      target="blank"
-                      className="project-link d-block"
-                    >
-                      <i className="far fa-image fa-lg pr-2"></i>
-                      Open Image
-                    </a>
+                    <p className="mb-0 mt-3 font-weight-bold">
+                      Tech: ReactJS ,Bootstrap ,REST API ,CSS, Javascript
+                    </p>
+                    <div className="d-flex d-row pt-3 justify-content-center  ">
+                      <a
+                        href="/static/media/works5.2def74b0.png"
+                        target="blank"
+                        className="project-link"
+                      >
+                        <i className="far fa-image fa-lg pr-2"></i>
+                        Open Image
+                      </a>
 
-                    {/* <a
-                      href="/static/media/works4.d20b007c.png"
+                      <a
+                        href="https://weatherpedia.netlify.app/"
+                        target="blank"
+                        className="project-link hide-inPhone"
+                      >
+                        <i className="fab fa-safari fa-lg pr-2"></i>
+                        Check the website!
+                      </a>
+                    </div>
+                    <a
+                      href="https://weatherpedia.netlify.app/"
                       target="blank"
-                      className="project-link hide-inPhone"
+                      className="project-link show-inPhone mt-2"
                     >
                       <i className="fab fa-safari fa-lg pr-2"></i>
                       Check the website!
-                    </a> */}
-                  </div>
-                  {/* <a
-                    href="/static/media/works4.d20b007c.png"
-                    target="blank"
-                    className="project-link show-inPhone mt-2"
-                  >
-                    <i className="fab fa-safari fa-lg pr-2"></i>
-                    Check the website!
-                  </a> */}
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
