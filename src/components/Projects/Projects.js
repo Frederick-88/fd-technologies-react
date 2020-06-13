@@ -199,7 +199,7 @@ export default class CenterMode extends Component {
                     <br />
                     <p className="mb-0 mt-3 font-weight-bold">
                       Tech: ReactJS ,Bootstrap ,Bootswatch ,CSS ,CSS Animation,
-                      ReactSlick
+                      ReactSlick, Responsive web design
                     </p>
                     <div className="d-flex d-row pt-3 justify-content-center  ">
                       <a
@@ -375,7 +375,8 @@ export default class CenterMode extends Component {
                     experience. User also can search other city at here.
                     <br />
                     <p className="mb-0 mt-3 font-weight-bold">
-                      Tech: ReactJS ,Bootstrap ,REST API ,CSS, Javascript
+                      Tech: ReactJS ,Bootstrap ,REST API ,CSS, Javascript,
+                      Responsive web design
                     </p>
                     <div className="d-flex d-row pt-3 justify-content-center  ">
                       <a
