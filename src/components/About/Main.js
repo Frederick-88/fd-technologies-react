@@ -27,8 +27,8 @@ export default function About() {
             gonna be and receive, so i always give maximum effort in my works.
             <br />
             <br />
-            "How can i do things better?" is the most frequent question i ask to
-            myself.
+            I empower learning and hardwork is the key to deliver quality in
+            advance.
             <br />
             <br />I could work by individual and team depends on company needs.
             i trust in every condition, there are space to grow and chance to

@@ -22,8 +22,8 @@ export default function componentName() {
           <div className="div-intro col-md-6 col-sm-12 main-col-2 order-xl-0">
             <h1>HI, I'm Frederick.</h1>
             <h4 className="pt-3">
-              I'm an upcoming FullStack Developer. Currently taking Fullstack
-              Major on Glints Academy Bootcamp Batam.
+              I'm a FullStack Developer which loves to explore new things in
+              technology & empower to deliver quality in advance.
             </h4>
 
             <h4 className=" mt-4">Take a look on My CV below --- </h4>
