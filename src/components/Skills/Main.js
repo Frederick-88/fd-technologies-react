@@ -162,6 +162,53 @@ export default function Skills() {
         <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
+              <i className="fas fa-layer-group fa-3x pb-3"></i>
+              <h4 className="card-title">ExpressJS</h4>
+
+              <span className="dot bg-success"></span>
+              <span className="dot bg-success"></span>
+              <span className="dot bg-secondary"></span>
+
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-xl-3 col-md-4 col-sm-6">
+          <div className="card bg-primary text-white mb-3">
+            <div className="card-body">
+              <i className="fas fa-table fa-3x pb-3"></i>
+              <h4 className="card-title skill-etc-text">MongoDB</h4>
+
+              <span className="dot bg-success"></span>
+              <span className="dot bg-success"></span>
+              <span className="dot bg-secondary"></span>
+
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-xl-3 col-md-4 col-sm-6">
+          <div className="card bg-primary text-white mb-3">
+            <div className="card-body">
+              <i className="fas fa-pencil-ruler fa-3x pb-3"></i>
+              <h4 className="card-title">3D Interior & Exterior</h4>
+
+              <span className="dot bg-success"></span>
+              <span className="dot bg-success"></span>
+              <span className="dot bg-success"></span>
+
+              <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row d-flex justify-content-center">
+        <div className="col-xl-3 col-md-4 col-sm-6">
+          <div className="card bg-primary text-white mb-3">
+            <div className="card-body">
               <i className="fas fa-globe-americas fa-3x pb-3"></i>
               <h4 className="card-title">English Language</h4>
 
@@ -194,12 +241,12 @@ export default function Skills() {
         <div className="col-xl-3 col-md-4 col-sm-6">
           <div className="card bg-primary text-white mb-3">
             <div className="card-body">
-              <i className="fas fa-pencil-ruler fa-3x pb-3"></i>
-              <h4 className="card-title">3D Interior & Exterior</h4>
+              <i className="fas fa-tasks fa-3x pb-3"></i>
+              <h4 className="card-title skill-etc-text">Project Management</h4>
 
               <span className="dot bg-success"></span>
               <span className="dot bg-success"></span>
-              <span className="dot bg-success"></span>
+              <span className="dot bg-secondary"></span>
 
               <p className="instruction-fx pt-3">BEGINNER/INTERMEDIATE/PRO</p>
             </div>
