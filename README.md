@@ -1,4 +1,4 @@
 ## Personal React JS Responsive Web !!
-- https://fdtech.asia/ 
+https://fdtech.asia/ 
 
 ### Soon Revamp !!
